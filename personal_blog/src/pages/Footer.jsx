@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   
   return (
-   <div className='flex flex-col w-full pl-6 pb-10 bottom-0 font-sans text-[#ccd3ccf0] gap-8 bg-black'>
-    <div className='flex flex-col gap-10 items-center lg:flex-row justify-between'> 
-     <div className='flex flex-col gap-2 pt-10 pl-10 '>
+   <div className='flex flex-col w-full pb-10 bottom-0 font-sans text-[#ccd3ccf0] gap-8 bg-black'>
+    <div className='flex flex-col gap-10 items-center lg:flex-row lg:justify-around '> 
+     <div className='flex flex-col gap-2 pt-10 '>
       <img/>
       <ul className='flex flex-col gap-2 xl:text-3xl '>
         <li><img src=''/> <span>support@swadesh.com</span></li>
@@ -18,7 +18,8 @@ export default function Footer() {
       </ul>
      </div>
     
-     <fieldset className="form-control w-80 pr-[20vh]">
+     <fieldset className="form-control w-80 flex items-center">
+     <div>
       <label className="label">
         <span className="label-text xl:text-3xl">Enter your email address</span>
       </label> 
@@ -26,6 +27,7 @@ export default function Footer() {
         <input type="text" placeholder="username@site.com" className="input input-bordered join-item p-2 xl:text-3xl" /> 
         <button className="btn btn-primary join-item xl:text-3xl p-2">Subscribe</button>
       </div>
+     </div>
     </fieldset>
      </div>
    </div>

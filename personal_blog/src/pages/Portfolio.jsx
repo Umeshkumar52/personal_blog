@@ -8,7 +8,7 @@ export default function Portfolio() {
       <div className='relative bg-slate-300 w-full'>
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr85OSi2iuGOMPUI3sMnSgTOqRqY-a3qh0Uw&usqp=CAU' className='w-full h-[13rem] xl:h-[20rem] '/>
        <div className='absolute top-1/3 left-1/4 '>
-        <h1 className='flex flex-col text-2xl xl:text-6xl lg:text-4xl shadow-xl opacity-70 font-serif text-white justify-center items-center'>
+        <h1 className='flex flex-col text-xl xl:text-6xl lg:text-4xl shadow-xl opacity-70 font-serif text-white justify-center items-center'>
             Free consultation for University
             <span>Applicants</span>
         </h1>
@@ -26,11 +26,11 @@ export default function Portfolio() {
             Read More
          </button>
         </div>
-       <div className=' flex flex-col justify-center items-center lg:w-[50%] '>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHHIjaK_kny_ddEmeomRlWeRmee9g7UEAVctaxAdjP2RPI1u4BX-ofJlArVrFhNkTyfHM&usqp=CAU' className='shadow-2xl w-[600px] h-[60vh] lg:w-[70%]'/>
+       <div className='h-[40vh] w-full flex flex-col justify-center items-center lg:w-[50%] '>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHHIjaK_kny_ddEmeomRlWeRmee9g7UEAVctaxAdjP2RPI1u4BX-ofJlArVrFhNkTyfHM&usqp=CAU' className='shadow-2xl  md:w-[600px] h-[22rem] lg:h-[60vh] lg:w-[70%]'/>
        </div>
       </div>
-      <div className='w-full xl:text-3xl lg:text-xl text-sm font-normal text-[#d3dcd3ec] h-[10rem] bg-[#505052] flex items-center justify-around'>
+      <div className='w-full xl:text-3xl lg:text-xl text-sm font-normal text-[#d3dcd3ec] h-[5rem] bg-[#6b6b76] flex items-center justify-around'>
         <div>
         <a href='https://www.linkedin.com/in/umesh-kumar-b20088253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>Apply Now</a>
         </div>
